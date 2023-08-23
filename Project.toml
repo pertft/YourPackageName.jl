@@ -1,0 +1,13 @@
+name = "YourPackageName"
+uuid = "082d4d8f-047d-4e93-9fc6-f25d017606c9"
+authors = ["pertft"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
